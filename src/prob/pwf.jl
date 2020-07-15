@@ -6,7 +6,7 @@ function run_pwf(pfile, wfile, pwfile, ptype, wtype, optimizer; kwargs...)
 end
 
 
-"Construct the power-water flow feasibility problem."
+"Instantiates the power-water flow feasibility problem."
 function build_pwf(pm::_PM.AbstractPowerModel, wm::_WM.AbstractWaterModel)
     # Power-only related variables and constraints.
     _PMD.build_mn_mc_mld_simple(pm)

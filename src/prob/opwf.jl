@@ -6,7 +6,7 @@ function run_opwf(p_file, w_file, pw_file, p_type, w_type, optimizer; kwargs...)
 end
 
 
-"Construct the optimal power-water flow problem."
+"Instantiates the optimal power-water flow problem."
 function build_opwf(pm::_PM.AbstractPowerModel, wm::_WM.AbstractWaterModel)
     # Power-only related variables and constraints.
     _PMD.build_mn_mc_mld_simple(pm)
