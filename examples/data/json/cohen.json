@@ -1,0 +1,25 @@
+{
+    "pipe": {
+        "3": {
+            "friction_factor": 0.001
+        },
+        "4": {
+            "friction_factor": 0.001
+        },
+        "6": {
+            "friction_factor": 0.001
+        },
+        "7": {
+            "friction_factor": 0.001
+        },
+        "8": {
+            "friction_factor": 0.001
+        },
+        "9": {
+            "friction_factor": 0.001
+        },
+        "10": {
+            "friction_factor": 0.001
+        }
+    }
+}
