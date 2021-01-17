@@ -1,15 +1,15 @@
 {
     "power_water_links": [
         {
-            "load_source_id": "Load.634a",
+            "load_source_id": "Load.PUMP1",
             "pump_source_id": "1"
         },
         {
-            "load_source_id": "Load.645",
+            "load_source_id": "Load.PUMP2",
             "pump_source_id": "2"
         },
         {
-            "load_source_id": "Load.611",
+            "load_source_id": "Load.PUMP5",
             "pump_source_id": "5"
         }
     ],

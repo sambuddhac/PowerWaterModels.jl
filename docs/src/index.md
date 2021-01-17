@@ -51,7 +51,7 @@ juniper = JuMP.optimizer_with_attributes(
     "branch_strategy" => :MostInfeasible, "time_limit" => 60.0)
 
 # Specify paths to the power, water, and power-water linking files.
-p_file = "examples/data/opendss/IEEE13_CDPSM.dss" # Power network.
+p_file = "examples/data/opendss/ieee13/IEEE13Master.dss" # Power network.
 w_file = "examples/data/epanet/cohen-short.inp" # Water network.
 pw_file = "examples/data/json/zamzam.json" # Power-water linking.
 
